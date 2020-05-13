@@ -13,7 +13,7 @@ The pack files in v2 and v3 are very similar. The only difference is in the meta
 To migrate a pack file v2 to v3, execute:
 
 ```bash
-$ node migrate-pack-files.js path/to/asset-pack.json
+$ node migrate-pack-file.js path/to/asset-pack.json
 
 ```
 
@@ -24,4 +24,6 @@ It will create a new `asset-pack.v3.json` file in the same folder of the origina
 TODO
 
 
+# Test files
 
+The `test-files` folder contains v2 files you can use to test the scripts.
