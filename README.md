@@ -6,6 +6,13 @@ This repository contains scripts to migrate files from v2 to v3.
 
 * Install [NodeJS](https://nodejs.org/).
 * Clone this repository.
+* Open a terminal and run `npm install` in the repository folder.
+
+# Project layout
+
+A project in v2 has a `Design` and `WebContent` folder. The `Design` folder is not part of the game, it is used only for tools like the Texture Packer Editor.
+
+Don't include the `Design` folder in your Phaser Editor v3 project. Your v3 project should only include the files inside the `WebContent` folder. You can store the content of the `Design` folder outside the project and workspace.
 
 # Migrating Asset Pack files
 
@@ -21,8 +28,7 @@ It will create a new `asset-pack.v3.json` file in the same folder of the origina
 
 # Migrating Scene files
 
-TODO
-
+WIP
 
 # Test files
 
