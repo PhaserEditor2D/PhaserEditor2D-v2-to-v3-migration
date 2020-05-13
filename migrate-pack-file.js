@@ -30,5 +30,5 @@ fs.writeFileSync(outputFile, JSON.stringify(data, null, 2));
 
 function printHelp() {
 
-    console.log("Usage: node migrate-pack-files.js path/to/pack.json");
+    console.log("Usage: node migrate-pack-file.js path/to/pack.json");
 }

@@ -29,7 +29,3 @@ It will create a new `asset-pack.v3.json` file in the same folder of the origina
 # Migrating Scene files
 
 WIP
-
-# Test files
-
-The `test-files` folder contains v2 files you can use to test the scripts.
