@@ -10,7 +10,7 @@ This repository contains scripts to migrate files from v2 to v3.
 # Migrating Asset Pack files
 
 The pack files in v2 and v3 are very similar. The only difference is in the meta information.
-To migrate a pack file v2 to v3, executes:
+To migrate a pack file v2 to v3, execute:
 
 ```bash
 $ node migrate-pack-files.js path/to/asset-pack.json
